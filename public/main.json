@@ -129,21 +129,21 @@
             {
                 "id": 1,
                 "name": "Emily Johnson",
-                "image": "url_to_emily_image.jpg",
+                "image": "https://i.ibb.co/NVyFzfk/cl2.jpg",
                 "quote": "The team at XYZ Events made our wedding day truly magical. Their attention to detail and creativity exceeded our expectations.",
                 "title": "Bride"
             },
             {
                 "id": 2,
                 "name": "John Smith",
-                "image": "url_to_john_image.jpg",
+                "image": "https://i.ibb.co/9qVCm6B/cl1.jpg",
                 "quote": "I can't thank ABC Catering enough for the amazing food and service at our event. Our guests are still raving about it!",
                 "title": "Event Host"
             },
             {
                 "id": 3,
                 "name": "Sophia Martinez",
-                "image": "url_to_sophia_image.jpg",
+                "image": "https://i.ibb.co/23KqfcY/cl3.jpg",
                 "quote": "The floral arrangements from Fresh Blooms were stunning. They added so much beauty and elegance to our special day.",
                 "title": "Bride"
             }
