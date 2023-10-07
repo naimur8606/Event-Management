@@ -11,6 +11,7 @@ import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import AuthProvider from './Providers/AuthProvider';
 import Album from './Components/Album/Album';
+import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact></Contact>
+      },
+      {
+        path:"/services/:id",
+        element:<ServiceDetails></ServiceDetails>
       }
     ]
   },
