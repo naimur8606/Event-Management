@@ -1,17 +1,21 @@
 import { useContext } from "react";
 import Banner from "./Banner/Banner";
 import { AuthContext } from "../../Providers/AuthProvider";
-import BlogMap from "../Blogs/BlogMap/BlogMap";
+import BlogMap from "../Album/BlogMap/BlogMap";
+import ServicesMap from "../Services/ServicesMap/ServicesMap";
+import HappyClient from "./HappyClient/HappyClient";
 
 const Home = () => {
-    const { blogs } = useContext(AuthContext);
+    const { blogs} = useContext(AuthContext);
     const allBlogs = blogs ? blogs.slice(2, 3) : []; // Check if blogs is defined
-    console.log(allBlogs);
+    const allServices = blogs ? blogs.slice(0, 3) : [];
     
     return (
         <div>
             <Banner />
             <BlogMap allBlogs={allBlogs} />
+            <ServicesMap className="w-11/12 mx-auto" allServices={allServices}></ServicesMap>
+            <HappyClient></HappyClient>
         </div>
     );
 };

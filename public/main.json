@@ -8,7 +8,14 @@
                 "img": "https://i.ibb.co/hdQFwMq/wi1.jpg",
                 "cost": "$2,500",
                 "provider": "Dreamy Photography Studio",
-                "description": "Our Photography Package offers you a timeless collection of high-quality photos that will beautifully narrate your love story. Our skilled photographers capture candid moments and create stunning portraits. With a keen eye for detail, we ensure that every smile, every glance, and every tear of joy is preserved in its purest form. Our comprehensive package includes engagement photos, full-day coverage of your wedding, professionally edited images, and an online gallery for easy sharing. We are committed to turning your special day into a timeless memory that you can cherish for a lifetime."
+                "description": "Our Photography Package offers you a timeless collection of high-quality photos that will beautifully narrate your love story. Our skilled photographers capture candid moments and create stunning portraits. With a keen eye for detail, we ensure that every smile, every glance, and every tear of joy is preserved in its purest form. Our comprehensive package includes engagement photos, full-day coverage of your wedding, professionally edited images, and an online gallery for easy sharing. We are committed to turning your special day into a timeless memory that you can cherish for a lifetime.",
+                "services": [
+                    "Full-day photography coverage",
+                    "Engagement photoshoot",
+                    "High-resolution photo delivery",
+                    "Online gallery for sharing",
+                    "Professional photo editing"
+                ]
             },
             {
                 "id": 2,
@@ -17,7 +24,14 @@
                 "img": "https://i.ibb.co/xzJXmCR/wi2.webp",
                 "cost": "$1,200",
                 "provider": "Elegant Blooms Florist",
-                "description": "Our Floral Arrangements will transform your wedding venue into a blooming paradise. With an exquisite blend of seasonal flowers and personalized designs, we create arrangements that match your unique style and vision. From bridal bouquets to centerpieces, our florists pay meticulous attention to every detail. Our team is dedicated to bringing your floral dreams to life, ensuring that your wedding is adorned with elegance and natural beauty. With 'Blossoms of Love,' your special day will be infused with the fragrance of romance and the vibrant colors of happiness."
+                "description": "Our Floral Arrangements will transform your wedding venue into a blooming paradise. With an exquisite blend of seasonal flowers and personalized designs, we create arrangements that match your unique style and vision. From bridal bouquets to centerpieces, our florists pay meticulous attention to every detail. Our team is dedicated to bringing your floral dreams to life, ensuring that your wedding is adorned with elegance and natural beauty. With 'Blossoms of Love,' your special day will be infused with the fragrance of romance and the vibrant colors of happiness.",
+                "services": [
+                    "Bridal bouquet",
+                    "Centerpiece arrangements",
+                    "Ceremony arch decor",
+                    "Corsages and boutonnieres",
+                    "Delivery and setup"
+                ]
             },
             {
                 "id": 3,
@@ -26,7 +40,14 @@
                 "img": "https://i.ibb.co/MCctvyV/wi3.jpg",
                 "cost": "$5,000",
                 "provider": "Gourmet Tastes Catering",
-                "description": "Indulge in an exquisite culinary experience with our Catering Service. Our team of talented chefs crafts a bespoke menu that caters to your tastes and dietary preferences. From appetizers to desserts, we source the finest ingredients to create mouthwatering dishes that will leave a lasting impression on your guests. Our service includes professional staff, elegant table settings, and a menu tasting session to ensure your complete satisfaction. 'Culinary Delights' promises to elevate your wedding reception to a gastronomic journey that is as memorable as your love story."
+                "description": "Indulge in an exquisite culinary experience with our Catering Service. Our team of talented chefs crafts a bespoke menu that caters to your tastes and dietary preferences. From appetizers to desserts, we source the finest ingredients to create mouthwatering dishes that will leave a lasting impression on your guests. Our service includes professional staff, elegant table settings, and a menu tasting session to ensure your complete satisfaction. 'Culinary Delights' promises to elevate your wedding reception to a gastronomic journey that is as memorable as your love story.",
+                "services": [
+                    "Customized menu planning",
+                    "Professional chef and servers",
+                    "Buffet or plated meal options",
+                    "Beverage service",
+                    "Tableware and linens"
+                ]
             },
             {
                 "id": 4,
@@ -35,7 +56,14 @@
                 "img": "https://i.ibb.co/bg4kKbD/wi4.png",
                 "cost": "$3,800",
                 "provider": "Enchanted Gardens Estate",
-                "description": "Discover the perfect setting for your wedding with our Venue Rental service. Our estate boasts enchanting gardens, rustic barns, and elegant ballrooms that cater to a range of wedding styles. Whether you dream of an outdoor garden ceremony or an indoor ballroom reception, our versatile spaces can be tailored to your vision. We offer inclusive packages that cover venue rental, seating, decor, and expert event coordination. With 'Charming Wedding Venues,' you can create a picturesque backdrop for your love story."
+                "description": "Discover the perfect setting for your wedding with our Venue Rental service. Our estate boasts enchanting gardens, rustic barns, and elegant ballrooms that cater to a range of wedding styles. Whether you dream of an outdoor garden ceremony or an indoor ballroom reception, our versatile spaces can be tailored to your vision. We offer inclusive packages that cover venue rental, seating, decor, and expert event coordination. With 'Charming Wedding Venues,' you can create a picturesque backdrop for your love story.",
+                "services": [
+                    "Exclusive venue access",
+                    "Indoor and outdoor options",
+                    "Seating and decor setup",
+                    "Parking and security",
+                    "Event coordinator"
+                ]
             },
             {
                 "id": 5,
@@ -44,7 +72,14 @@
                 "img": "https://i.ibb.co/Fn2pFnq/wi5.jpg",
                 "cost": "$1,800",
                 "provider": "Bridal Bliss Boutique",
-                "description": "At Bridal Bliss Boutique, we specialize in helping you find the wedding dress of your dreams. Our collection features a wide range of styles, from classic to contemporary, ensuring that you'll find the perfect gown that reflects your unique personality and style. Our experienced consultants provide personalized fittings and alterations to ensure a perfect fit. We also offer a selection of accessories, including veils and jewelry, to complete your bridal look. 'Bridal Elegance' is where your journey to 'I do' begins in style."
+                "description": "At Bridal Bliss Boutique, we specialize in helping you find the wedding dress of your dreams. Our collection features a wide range of styles, from classic to contemporary, ensuring that you'll find the perfect gown that reflects your unique personality and style. Our experienced consultants provide personalized fittings and alterations to ensure a perfect fit. We also offer a selection of accessories, including veils and jewelry, to complete your bridal look. 'Bridal Elegance' is where your journey to 'I do' begins in style.",
+                "services": [
+                    "Live band or DJ",
+                    "Customized playlist",
+                    "Sound and lighting equipment",
+                    "MC services",
+                    "Dance floor setup"
+                ]
             },
             {
                 "id": 6,
@@ -53,7 +88,14 @@
                 "img": "https://i.ibb.co/T8GjD2t/wi6.webp",
                 "cost": "$2,200",
                 "provider": "Harmony Sounds Band",
-                "description": "Experience the 'Melodies of Love' with our Live Entertainment service. Our talented musicians and vocalists will set the perfect mood for your wedding ceremony and reception. From romantic ballads during your vows to lively tunes that get everyone on the dance floor, we create a soundtrack that reflects your love story. Our customizable packages include a variety of musical styles and instruments to match your preferences. With 'Melodies of Love,' your wedding day will be filled with harmonious moments and unforgettable melodies."
+                "description": "Experience the 'Melodies of Love' with our Live Entertainment service. Our talented musicians and vocalists will set the perfect mood for your wedding ceremony and reception. From romantic ballads during your vows to lively tunes that get everyone on the dance floor, we create a soundtrack that reflects your love story. Our customizable packages include a variety of musical styles and instruments to match your preferences. With 'Melodies of Love,' your wedding day will be filled with harmonious moments and unforgettable melodies.",
+                "services": [
+                    "Full event planning and coordination",
+                    "Vendor selection and management",
+                    "Budget planning and tracking",
+                    "Timeline creation",
+                    "Day-of coordination"
+                ]
             },
             {
                 "id": 7,
@@ -81,6 +123,29 @@
                 "cost": "$1,200",
                 "provider": "Elegant Limousine Service",
                 "description": "Make a grand entrance and exit with our Transportation Services. Our fleet of luxurious limousines and chauffeur-driven cars ensures that you arrive at your wedding venue in style. We provide a seamless and comfortable transportation experience for you and your bridal party. With 'Arrive in Style,' your wedding day transportation becomes a part of the unforgettable journey of your special day."
+            }
+        ],
+        "clientSay": [
+            {
+                "id": 1,
+                "name": "Emily Johnson",
+                "image": "url_to_emily_image.jpg",
+                "quote": "The team at XYZ Events made our wedding day truly magical. Their attention to detail and creativity exceeded our expectations.",
+                "title": "Bride"
+            },
+            {
+                "id": 2,
+                "name": "John Smith",
+                "image": "url_to_john_image.jpg",
+                "quote": "I can't thank ABC Catering enough for the amazing food and service at our event. Our guests are still raving about it!",
+                "title": "Event Host"
+            },
+            {
+                "id": 3,
+                "name": "Sophia Martinez",
+                "image": "url_to_sophia_image.jpg",
+                "quote": "The floral arrangements from Fresh Blooms were stunning. They added so much beauty and elegance to our special day.",
+                "title": "Bride"
             }
         ]
     }

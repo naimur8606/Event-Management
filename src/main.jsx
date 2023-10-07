@@ -10,7 +10,7 @@ import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 import AuthProvider from './Providers/AuthProvider';
-import Album from './Components/Blogs/Album';
+import Album from './Components/Album/Album';
 
 const router = createBrowserRouter([
   {

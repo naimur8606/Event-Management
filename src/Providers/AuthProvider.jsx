@@ -11,9 +11,10 @@ const AuthProvider = ({children}) => {
                 console.error(error);
             });
     }, []);
-    const {blogs} = jsonData;
+    const {blogs, clientSay} = jsonData;
 const authInfo = {
-    blogs
+    blogs,
+    clientSay
 }
     return (
         <AuthContext.Provider value={authInfo}>
