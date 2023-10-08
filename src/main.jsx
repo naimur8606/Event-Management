@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/services",
-        element: <Services></Services>
+        element: <PrivateRoute><Services></Services></PrivateRoute>
       },
       {
         path: "/album",
-        element: <Album></Album>
+        element: <PrivateRoute><Album></Album></PrivateRoute>
       },
       {
         path: "/contact",

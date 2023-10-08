@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ServicesMap = ({ allServices }) => {
     return (
         <div className='w-11/12 mx-auto '>
-            <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-center my-10 text-[#fd4520]">{allServices.length === 3 ? "Our Package" : "All Service For You"} </h2>
+            <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-center my-10 text-[#fd4520]">{allServices.length === 3 ? "Our Services" : "All Service For You"} </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                 {

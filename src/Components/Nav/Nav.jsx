@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsPerson, BsPersonX } from "react-icons/bs";
 import { AuthContext } from "../../Providers/AuthProvider";
@@ -13,7 +13,7 @@ const Nav = () => {
     const SignOut = () => {
         logOut()
             .then(toast.error('Logout successfully!', {
-                position: "top-right",
+                position: "top-left",
                 autoClose: 1000,
                 hideProgressBar: false,
                 closeOnClick: true,
@@ -66,7 +66,15 @@ const Nav = () => {
                 <div className="text-black flex items-center">
                     <BsPerson className="text-2xl mr-1.5"></BsPerson><button onClick={SignOut}>Logout</button>
                 </div> : 
-                <div className="text-black flex items-center"><BsPersonX className="text-2xl mr-1.5"></BsPersonX><Link to={"/login"}>Login</Link></div>
+                <div className="text-black flex items-center"><BsPersonX className="text-2xl mr-1.5"></BsPersonX>
+                <NavLink
+                to="/login"
+                className={({ isActive, isPending }) =>
+                    isPending ? "pending" : isActive ? "text-[#fd4520] border border-[#fd4520] px-3 py-1 rounded-md" : ""
+                }>
+                Login
+                </NavLink>
+            </div>
                 }
 
         </li>
