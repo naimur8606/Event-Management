@@ -12,6 +12,9 @@ import Contact from './Components/Contact/Contact';
 import AuthProvider from './Providers/AuthProvider';
 import Album from './Components/Album/Album';
 import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails';
+import CreateUser from './Components/Create&Login/CreateUser';
+import Login from './Components/Create&Login/Login';
+import PrivateRoute from './Route/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +39,15 @@ const router = createBrowserRouter([
       },
       {
         path:"/services/:id",
-        element:<ServiceDetails></ServiceDetails>
+        element:<PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>
+      },
+      {
+        path:"/createUser",
+        element:<CreateUser></CreateUser>
+      },
+      {
+        path:"/login",
+        element:<Login></Login>
       }
     ]
   },
