@@ -8,7 +8,7 @@ import { signOut } from "firebase/auth";
 import auth from "../../Providers/Firebase/FirebaseConfig";
 
 const CreateUser = () => {
-    const { createUser,userCurrentPath} = useContext(AuthContext);
+    const { createUser} = useContext(AuthContext);
     const navigate = useNavigate()
     const formSubmit = e => {
         e.preventDefault();
@@ -61,7 +61,7 @@ const CreateUser = () => {
                             <label className="label">
                                 <span className="label-text">Password</span>
                             </label>
-                            <input type="text" name="password" placeholder="password" className="input input-bordered" />
+                            <input type="password" name="password" placeholder="password" className="input input-bordered" />
                         </div>
                         <div className="form-control mt-6">
                             <button type="submit" className="btn btn-primary">Create Account</button>

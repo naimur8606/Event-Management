@@ -3,7 +3,6 @@ import { AuthContext } from "../../../Providers/AuthProvider";
 
 const HappyClient = () => {
     const { clientSay } = useContext(AuthContext);
-    console.log(clientSay)
     return (
         <div className="w-11/12 mx-auto my-5">
             <h2 className="text-2xl md:text-3xl lg:text-5xl font-semibold text-center my-10 text-[#fd4520]"> Client Say </h2>

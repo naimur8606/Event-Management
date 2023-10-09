@@ -1,10 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Blog = ({ blog, Explore }) => {
     const [seeMore, setSeeMore] = useState(false)
+    useEffect(()=>{
+        AOS.init({duration:"1000"})
+    },[])
     return (
-        <div className="border border-[#fd4520] rounded-lg p-2 lg:flex">
+        <div className="border border-[#fd4520] rounded-lg p-2 lg:flex"  data-aos="fade-right">
             <img className="w-10/12 lg:w-1/2 mx-auto h-40 md:h-[53vh] lg:h-[60vh] mb-5 rounded" src={blog?.img} alt="" />
             <div className="lg:w-1/2  flex flex-col justify-center items-start pl-5">
                 <div className="">
