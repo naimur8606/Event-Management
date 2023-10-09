@@ -4,6 +4,8 @@ import { Link, useNavigate} from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import SocialLogin from "./SocialLogin";
+import { signOut } from "firebase/auth";
+import auth from "../../Providers/Firebase/FirebaseConfig";
 
 const CreateUser = () => {
     const { createUser,userCurrentPath} = useContext(AuthContext);
@@ -26,18 +28,9 @@ const CreateUser = () => {
 
         createUser(email, password)
             .then(()=>{
-                toast.success('User created and Login successfully !', {
-                position: "top-left",
-                autoClose: 2000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
+                signOut(auth)
+                navigate("/login")
             })
-            navigate(userCurrentPath? userCurrentPath:"/")
-        })
             .catch(error =>
                 {toast.error(`'${error}`, {
                 position: "top-left",

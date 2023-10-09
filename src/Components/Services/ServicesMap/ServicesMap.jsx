@@ -13,7 +13,7 @@ const ServicesMap = ({ allServices }) => {
                 }
             </div>
             <div className='flex justify-center'>
-                {allServices.length === 3 && <Link to={"/services"} className="btn text-[22px] font-medium my-3 text-white bg-[#fd4520] hover:text-[#fd4520]">See All Packages</Link>}
+                {allServices.length === 6 && <Link to={"/services"} className="btn text-[22px] font-medium my-3 text-white bg-[#fd4520] hover:text-[#fd4520]">See All Packages</Link>}
             </div>
         </div>
     );

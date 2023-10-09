@@ -15,11 +15,13 @@ import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails'
 import CreateUser from './Components/Create&Login/CreateUser';
 import Login from './Components/Create&Login/Login';
 import PrivateRoute from './Route/PrivateRoute';
+import Error from './Components/Error/Error';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",

@@ -9,7 +9,7 @@ import Contact from "../Contact/Contact";
 const Home = () => {
     const { blogs} = useContext(AuthContext);
     const allBlogs = blogs ? blogs.slice(2, 3) : []; // Check if blogs is defined
-    const allServices = blogs ? blogs.slice(0, 3) : [];
+    const allServices = blogs ? blogs.slice(0, 6) : [];
     
     return (
         <div>
